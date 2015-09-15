@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <!-- Use resource hints to preconnect to fonts.googleapis.com,
+     which is used in main.css
+     See http://caniuse.com/#feat=link-rel-preconnect for browser support -->
+    <link href='//fonts.googleapis.com' rel='preconnect' crossorigin=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>SpringOne 2GX | September 14 - 17, 2015 | Washington DC</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width"/>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{/main.css}" rel="stylesheet"/>
+</head>
+<body>
+<div class="title">
+    <div class="container">
+        <h1>HTTP/2 with Spring Boot</h1>
+        <p>some text</p>
+    </div>
+</div>
+<div class="hero">
+    <div class="container">
+        <h2>Search talks and speakers</h2>
+
+        <div id="prefetch">
+            <input class="typeahead" type="text" placeholder="Talks"/>
+        </div>
+    </div>
+</div>
+<div class="slices">
+    <img src="/slices/slice01.jpg"/>
+    <img src="/slices/slice02.jpg"/>
+    <img src="/slices/slice03.jpg"/>
+    <img src="/slices/slice04.jpg"/>
+    <img src="/slices/slice05.jpg"/>
+    <img src="/slices/slice06.jpg"/>
+    <img src="/slices/slice07.jpg"/>
+    <img src="/slices/slice08.jpg"/>
+    <img src="/slices/slice09.jpg"/>
+    <img src="/slices/slice10.jpg"/>
+</div>
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/typeaheadjs/typeahead.bundle.min.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

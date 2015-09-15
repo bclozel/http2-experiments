@@ -1,0 +1,732 @@
+[
+  {
+    "title": "Modern Java Component Design with Spring Framework 4.2",
+    "authors": [
+      "Jürgen Höller",
+      "Stéphane Nicoll"
+    ]
+  },
+  {
+    "title": "Documenting RESTful APIs",
+    "authors": [
+      "Andy Wilkinson"
+    ]
+  },
+  {
+    "title": "From Source to Bytecode: Deep Dive into the Groovy Compiler",
+    "authors": [
+      "Cédric Champeau"
+    ]
+  },
+  {
+    "title": "Getting Started with Spring Cloud",
+    "authors": [
+      "Josh Long (龙之春)"
+    ]
+  },
+  {
+    "title": "Grails 3.x Update",
+    "authors": [
+      "Graeme Rocher"
+    ]
+  },
+  {
+    "title": "Grooscript in Action",
+    "authors": [
+      "Jorge Franco"
+    ]
+  },
+  {
+    "title": "Groovy with Style!",
+    "authors": [
+      "Guillaume Laforge"
+    ]
+  },
+  {
+    "title": "What's new in 2015 for Spring Data",
+    "authors": [
+      "Thomas Darimont",
+      "Oliver Gierke"
+    ]
+  },
+  {
+    "title": "Spring XD today and tomorrow",
+    "authors": [
+      "Mark Pollack"
+    ]
+  },
+  {
+    "title": "Get the Most out of Testing with Spring 4.2",
+    "authors": [
+      "Sam Brannen",
+      "Nicolas Frankel"
+    ]
+  },
+  {
+    "title": "Building Highly-Scalable Spring Applications with In-Memory, Distributed Data Grids",
+    "authors": [
+      "John Blum",
+      "Luke Shannon"
+    ]
+  },
+  {
+    "title": "Geb Overview",
+    "authors": [
+      "Allison Figus"
+    ]
+  },
+  {
+    "title": "Groovy and Scala: Friends or Foes?",
+    "authors": [
+      "Marco Vermeulen"
+    ]
+  },
+  {
+    "title": "Hands-On Migration from Grails 2 to 3",
+    "authors": [
+      "Michael Plöd"
+    ]
+  },
+  {
+    "title": "Implementing a highly scalable Stock prediction system with R, GemFire and Spring XD",
+    "authors": [
+      "William Markito Oliveira",
+      "Fred Melo"
+    ]
+  },
+  {
+    "title": "Introduction to Reactive Programming",
+    "authors": [
+      "Stephane Maldini",
+      "Rossen Stoyanchev"
+    ]
+  },
+  {
+    "title": "Lattice: A Cloud-Native Platform for Your Spring Applications",
+    "authors": [
+      "Matt Stine"
+    ]
+  },
+  {
+    "title": "Take a Groovy Rest",
+    "authors": [
+      "Guillaume Laforge"
+    ]
+  },
+  {
+    "title": "Spring Boot is made for tooling",
+    "authors": [
+      "Yann Cébron",
+      "Stéphane Nicoll"
+    ]
+  },
+  {
+    "title": "Developer Experience with Spring Cloud and Lattice",
+    "authors": [
+      "Spencer Gibb",
+      "Dave Syer"
+    ]
+  },
+  {
+    "title": "Grails Gotchas and Best Practices",
+    "authors": [
+      "Tom Henricksen"
+    ]
+  },
+  {
+    "title": "Groovy Options for Reactive Programming",
+    "authors": [
+      "Steve Pember"
+    ]
+  },
+  {
+    "title": "HTTP/2 for the Web developer",
+    "authors": [
+      "Brian Clozel"
+    ]
+  },
+  {
+    "title": "IoT Realized - The Connected Car v2",
+    "authors": [
+      "Phil Berman",
+      "Michael T Minella"
+    ]
+  },
+  {
+    "title": "Programming Groovy on Java 8",
+    "authors": [
+      "Venkat Subramaniam"
+    ]
+  },
+  {
+    "title": "Spring Data REST - Data Meets Hypermedia + Security",
+    "authors": [
+      "Roy Clarkson",
+      "Greg Turnquist"
+    ]
+  },
+  {
+    "title": "Using Groovy & Spock to Develop Tests as Assets not Afterthoughts",
+    "authors": [
+      "Brian Westrich"
+    ]
+  },
+  {
+    "title": "Transforming Code to Java 8",
+    "authors": [
+      "Venkat Subramaniam"
+    ]
+  },
+  {
+    "title": "Boot your search with Spring",
+    "authors": [
+      "Christoph Strobl"
+    ]
+  },
+  {
+    "title": "Create Elegant Builds at Scale with Gradle",
+    "authors": [
+      "Hans Dockter"
+    ]
+  },
+  {
+    "title": "Data Driven Action: a primer on Data Science",
+    "authors": [
+      "Sarah Aerni",
+      "Srivatsan Ramanujam",
+      "Jarrod Vawdrey"
+    ]
+  },
+  {
+    "title": "Introducing RxJava into a Spring Boot REST API",
+    "authors": [
+      "Simon Baslé",
+      "Laurent Doguin"
+    ]
+  },
+  {
+    "title": "Microservice Architecture with Grails",
+    "authors": [
+      "Jeff Brown"
+    ]
+  },
+  {
+    "title": "Ratpack Web Framework",
+    "authors": [
+      "Dan Woods"
+    ]
+  },
+  {
+    "title": "Spring Boot and Groovy",
+    "authors": [
+      "Fátima Casaú"
+    ]
+  },
+  {
+    "title": "Spring Cloud at Netflix",
+    "authors": [
+      "Jon Schneider",
+      "Taylor Wicksell"
+    ]
+  },
+  {
+    "title": "Spring Boot and JRebel",
+    "authors": [
+      "Adam Koblentz",
+      "Josh Long (龙之春)"
+    ]
+  },
+  {
+    "title": "Becoming an Advanced Groovy developer",
+    "authors": [
+      "Tom Henricksen"
+    ]
+  },
+  {
+    "title": "Better iOS development with Groovy",
+    "authors": [
+      "Rahul Somasunderam"
+    ]
+  },
+  {
+    "title": "Gradle plugin best practices by example",
+    "authors": [
+      "Benjamin Muschko"
+    ]
+  },
+  {
+    "title": "Groovy After All These Years",
+    "authors": [
+      "Scott Hickey"
+    ]
+  },
+  {
+    "title": "Migrating the Monolith",
+    "authors": [
+      "Rohit Kelapure"
+    ]
+  },
+  {
+    "title": "Spring Integration Extensions Ecosystem",
+    "authors": [
+      "Eren Avsarogullari",
+      "Artem Bilan",
+      "Gary Russell"
+    ]
+  },
+  {
+    "title": "Stream Processing at Scale with Spring XD and Kafka",
+    "authors": [
+      "Marius Bogoevici"
+    ]
+  },
+  {
+    "title": "The State of Securing RESTful APIs with Spring",
+    "authors": [
+      "Rob Winch"
+    ]
+  },
+  {
+    "title": "Hands on Spring Security",
+    "authors": [
+      "Rob Winch"
+    ]
+  },
+  {
+    "title": "Spring XD Data Pipelines on Cloud Foundry's Diego",
+    "authors": [
+      "Mark Fisher",
+      "Patrick Peralta"
+    ]
+  },
+  {
+    "title": "12 Factor, or Cloud Native Apps for Spring Developers",
+    "authors": [
+      "Cornelia Davis"
+    ]
+  },
+  {
+    "title": "Building a Grails Microservice Federation",
+    "authors": [
+      "Jack Frosch"
+    ]
+  },
+  {
+    "title": "Groovy: The Awesome Parts",
+    "authors": [
+      "Paul King"
+    ]
+  },
+  {
+    "title": "Runtime Metaprogramming with Groovy",
+    "authors": [
+      "Jeff Brown"
+    ]
+  },
+  {
+    "title": "Simple, Lean, Powerful HTTP Applications with Ratpack",
+    "authors": [
+      "Ken Kousen"
+    ]
+  },
+  {
+    "title": "Spring Integration Java DSL",
+    "authors": [
+      "Artem Bilan"
+    ]
+  },
+  {
+    "title": "Testing Your Spring Boot Application With Selenium",
+    "authors": [
+      "Mathilde Lemee"
+    ]
+  },
+  {
+    "title": "Spring Framework: The Ultimate Configurations Battle!",
+    "authors": [
+      "Viktor Gamov",
+      "Leonid Igolnik",
+      "Baruch Sadogursky"
+    ]
+  },
+  {
+    "title": "Applied Spring Integration, Spring AMQP and RabbitMQ in Spring XD",
+    "authors": [
+      "Gary Russell"
+    ]
+  },
+  {
+    "title": "Compile Time Metaprogramming with Groovy",
+    "authors": [
+      "Jeff Brown"
+    ]
+  },
+  {
+    "title": "Grails & Cassandra",
+    "authors": [
+      "Jeff Beck"
+    ]
+  },
+  {
+    "title": "Hadoop Workflows and Distributed YARN Apps using Spring technologies",
+    "authors": [
+      "Thomas Risberg",
+      "Janne Valkealahti"
+    ]
+  },
+  {
+    "title": "IO State in API Architecture",
+    "authors": [
+      "Owen Rubel"
+    ]
+  },
+  {
+    "title": "Spring Boot for DevOps",
+    "authors": [
+      "Nicolas Frankel"
+    ]
+  },
+  {
+    "title": "Spring MVC 4.2: New and Noteworthy",
+    "authors": [
+      "Rossen Stoyanchev"
+    ]
+  },
+  {
+    "title": "Using Groovy Annotations",
+    "authors": [
+      "Venkat Subramaniam"
+    ]
+  },
+  {
+    "title": "Building a next-generation cloud e-commerce platform with Spring",
+    "authors": [
+      "Petar Tahchiev"
+    ]
+  },
+  {
+    "title": "Gpars: Concurrency in Java & Groovy",
+    "authors": [
+      "Ken Kousen"
+    ]
+  },
+  {
+    "title": "Grails 3.x Inside and Out",
+    "authors": [
+      "Graeme Rocher"
+    ]
+  },
+  {
+    "title": "Introducing CallTracing(tm), based on RabbitMQ, Spring and Zipkin",
+    "authors": [
+      "Monish Unni"
+    ]
+  },
+  {
+    "title": "Isomorphic templating with Spring Boot, Nashorn and React",
+    "authors": [
+      "Sébastien Deleuze"
+    ]
+  },
+  {
+    "title": "Spring Boot Micro-services, Containers, and Kubernetes - How To",
+    "authors": [
+      "Ray Tsang"
+    ]
+  },
+  {
+    "title": "Supercharging Operations and Analytics: Using Spring XD to Support Analytics and CEP",
+    "authors": [
+      "Joseph Paulchell"
+    ]
+  },
+  {
+    "title": "Testing with Spock: The Logical Choice",
+    "authors": [
+      "Iván López"
+    ]
+  },
+  {
+    "title": "What will a Groovy DSL look like in 2016",
+    "authors": [
+      "Cédric Champeau"
+    ]
+  },
+  {
+    "title": "Behind the OSS curtain: How we manage Spring",
+    "authors": [
+      "Baruch Sadogursky",
+      "Phil Webb"
+    ]
+  },
+  {
+    "title": "Advanced Groovy Tips & Tracks",
+    "authors": [
+      "Ken Kousen"
+    ]
+  },
+  {
+    "title": "Cloud Native Java with Spring Cloud Services",
+    "authors": [
+      "Scott Frederick",
+      "Craig Walls"
+    ]
+  },
+  {
+    "title": "Convention over Configuration: the Gradle way",
+    "authors": [
+      "Cédric Champeau"
+    ]
+  },
+  {
+    "title": "Federated Queries with HAWQ - SQL on Hadoop and Beyond",
+    "authors": [
+      "Christian Tzolov"
+    ]
+  },
+  {
+    "title": "Intro to Spring Boot for the web tier",
+    "authors": [
+      "Brian Clozel",
+      "Stéphane Nicoll"
+    ]
+  },
+  {
+    "title": "Restful Grails 3",
+    "authors": [
+      "Jeff Brown"
+    ]
+  },
+  {
+    "title": "Understanding Groovy Typing",
+    "authors": [
+      "Venkat Subramaniam"
+    ]
+  },
+  {
+    "title": "Who needs batch these days?",
+    "authors": [
+      "Gunnar Hillert",
+      "Michael T Minella"
+    ]
+  },
+  {
+    "title": "Developing cloud-native applications with the Spring Tool Suite",
+    "authors": [
+      "Kris De Volder",
+      "Martin Lippert"
+    ]
+  },
+  {
+    "title": "A How to Guide to Security in the PAAS Cloud",
+    "authors": [
+      "John Field",
+      "Shawn McKinney"
+    ]
+  },
+  {
+    "title": "Apache Spark for Big Data Processing",
+    "authors": [
+      "Ilayaperumal Gopinathan",
+      "Ludwine Probst"
+    ]
+  },
+  {
+    "title": "Bringing javax.cache'ing to your application",
+    "authors": [
+      "Chris Dennis",
+      "Alex Snaps"
+    ]
+  },
+  {
+    "title": "From Zero to Hero with Spring WebSocket",
+    "authors": [
+      "Sergi Almar"
+    ]
+  },
+  {
+    "title": "Grails & the real-time world",
+    "authors": [
+      "Iván López"
+    ]
+  },
+  {
+    "title": "Richer Data History with Event Sourcing",
+    "authors": [
+      "Steve Pember"
+    ]
+  },
+  {
+    "title": "Serious Use Groovy Now",
+    "authors": [
+      "Ken Kousen"
+    ]
+  },
+  {
+    "title": "The Epic Groovy Puzzlers S02: The revenge of the parentheses",
+    "authors": [
+      "Viktor Gamov",
+      "Baruch Sadogursky"
+    ]
+  },
+  {
+    "title": "What it means to be Just In Time",
+    "authors": [
+      "Ashley Puls"
+    ]
+  },
+  {
+    "title": "A Spring Developer's Guide to Social Integration",
+    "authors": [
+      "Craig Walls"
+    ]
+  },
+  {
+    "title": "Building microservices with event sourcing and CQRS",
+    "authors": [
+      "Chris Richardson"
+    ]
+  },
+  {
+    "title": "Comparing Hot JavaScript Frameworks: AngularJS, Ember.js and React.js",
+    "authors": [
+      "Matt Raible"
+    ]
+  },
+  {
+    "title": "Developing Real-Time Data Pipelines with Apache Kafka",
+    "authors": [
+      "Joe Stein"
+    ]
+  },
+  {
+    "title": "Full Stack Groovy Developer",
+    "authors": [
+      "Iván López"
+    ]
+  },
+  {
+    "title": "Programming with Traits",
+    "authors": [
+      "Venkat Subramaniam"
+    ]
+  },
+  {
+    "title": "The Great Migration",
+    "authors": [
+      "Baruch Sadogursky"
+    ]
+  },
+  {
+    "title": "Writing a Kubernetes Autoscaler with Groovy and Spring Boot",
+    "authors": [
+      "Ray Tsang"
+    ]
+  },
+  {
+    "title": "Building and Tuning High Performance Java Platforms",
+    "authors": [
+      "Emad Benjamin"
+    ]
+  },
+  {
+    "title": "Booting IoT with Grails",
+    "authors": [
+      "Colin Harrington"
+    ]
+  },
+  {
+    "title": "Geb in the Browser",
+    "authors": [
+      "Ken Kousen"
+    ]
+  },
+  {
+    "title": "Groovy AST Transformations",
+    "authors": [
+      "Paul King"
+    ]
+  },
+  {
+    "title": "Hacking Groovy with Compile Time Metaprogramming",
+    "authors": [
+      "Venkat Subramaniam"
+    ]
+  },
+  {
+    "title": "High Performance Stream Processing",
+    "authors": [
+      "Stephane Maldini",
+      "Glenn Renfro",
+      "David Turanski"
+    ]
+  },
+  {
+    "title": "Reactive Web Applications",
+    "authors": [
+      "Stephane Maldini",
+      "Rossen Stoyanchev"
+    ]
+  },
+  {
+    "title": "Securing Microservices with Spring Cloud Security",
+    "authors": [
+      "Will Tran"
+    ]
+  },
+  {
+    "title": "Spring Data Daily Double - Couchbase and Neo4J",
+    "authors": [
+      "Laurent Doguin",
+      "Michael Wilmes"
+    ]
+  },
+  {
+    "title": "#NoXML: Eliminating XML in Your Spring Projects",
+    "authors": [
+      "Matt Raible"
+    ]
+  },
+  {
+    "title": "Applying Groovy Closures",
+    "authors": [
+      "Venkat Subramaniam"
+    ]
+  },
+  {
+    "title": "Deploying, Scaling, and Running Grails on AWS and VPC",
+    "authors": [
+      "Ryan Vanderwerf"
+    ]
+  },
+  {
+    "title": "Functional Programming Kata with Groovy",
+    "authors": [
+      "Scott Hickey"
+    ]
+  },
+  {
+    "title": "Microservices to FastData in the Enterprise with Spring",
+    "authors": [
+      "John T Davies"
+    ]
+  },
+  {
+    "title": "Modern Frontend Engineering",
+    "authors": [
+      "Dustin Whittle"
+    ]
+  },
+  {
+    "title": "Spring Cloud *: Exploring Alternative Spring Cloud Implementations",
+    "authors": [
+      "Spencer Gibb"
+    ]
+  },
+  {
+    "title": "Working with Databases & Groovy",
+    "authors": [
+      "Paul King"
+    ]
+  }
+]

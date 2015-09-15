@@ -1,0 +1,18 @@
+server:
+  compression:
+    enabled: true
+    mime-types: application/json,text/css,application/javascript,text/html
+    min-response-size: 2048
+
+
+  port: 8443
+  ssl:
+    key-store: classpath:keystore.jks
+    key-store-password: secret
+    key-password: password
+    protocol: TLSv1.2
+
+spring:
+  resources:
+    chain:
+      enabled: true
