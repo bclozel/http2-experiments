@@ -1,6 +1,6 @@
 # HTTP/2 experiments with Spring Boot
 
-This project is part of the ["HTTP/2 for the Web developer" talk given at SpringOne2GX 2015](https://2015.event.springone2gx.com/schedule/2015-09-15).
+This project is part of the ["HTTP/2 for the Web developer" talk given at SpringOne2GX 2015](https://2015.event.springone2gx.com/schedule/sessions/http_2_for_the_web_developer.html).
 
 ## Running this project
 
