@@ -10,7 +10,7 @@ From the command line, run
 
 In your IDE, you have to run the `Http2ExperimentsApplication` class and customize your run configuration to add a JVM argument:
 
-    -Xbootclasspath/p:$HOME/.m2/repository/org/mortbay/jetty/alpn/alpn-boot/8.1.3.v20150130/alpn-boot-8.1.3.v20150130.jar
+    -Xbootclasspath/p:$HOME/.m2/repository/org/mortbay/jetty/alpn/alpn-boot/8.1.6.v20151105/alpn-boot-8.1.6.v20151105.jar
 
 ## License
 This project is released under version 2.0 of the [Apache License](http://www.apache.org/licenses/LICENSE-2.0).
