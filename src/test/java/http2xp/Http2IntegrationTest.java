@@ -1,27 +1,27 @@
 package http2xp;
 
-import com.squareup.okhttp.OkHttpClient;
+import java.security.KeyStore;
+
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManagerFactory;
+
+import okhttp3.OkHttpClient;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.test.SpringApplicationConfiguration;
-import org.springframework.boot.test.WebIntegrationTest;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.ResponseEntity;
-import org.springframework.http.client.OkHttpClientHttpRequestFactory;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
+import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
 
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.TrustManagerFactory;
-import java.security.KeyStore;
-
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = Http2ExperimentsApplication.class)
-@WebIntegrationTest("server.port:8443")
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 public class Http2IntegrationTest {
 
     @Value("${server.ssl.key-store-password}")
@@ -44,10 +44,12 @@ public class Http2IntegrationTest {
         SSLContext ctx = SSLContext.getInstance(sslProtocol);
         ctx.init(null, tmf.getTrustManagers(), null);
 
-        OkHttpClient okHttpClient = new OkHttpClient();
-        okHttpClient.setSslSocketFactory(ctx.getSocketFactory());
-        okHttpClient.setHostnameVerifier((s, sslSession) -> true);
-        this.restTemplate = new RestTemplate(new OkHttpClientHttpRequestFactory(okHttpClient));
+        OkHttpClient okHttpClient = new OkHttpClient
+				.Builder()
+				.sslSocketFactory(ctx.getSocketFactory())
+				.hostnameVerifier((s, sslSession) -> true)
+				.build();
+        this.restTemplate = new RestTemplate(new OkHttp3ClientHttpRequestFactory(okHttpClient));
     }
 
 
